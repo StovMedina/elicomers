@@ -32,7 +32,7 @@ routes.post("/", (req, res) => {
       payload: newUser,
     });
   }
-  res.status(201).json({ message: "Usuario creado" });
+  res.status(201).json({ message: "ah prro" });
 });
 
 routes.put("/", (req, res) => {
